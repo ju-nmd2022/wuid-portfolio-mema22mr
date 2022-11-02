@@ -1,0 +1,23 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+}
+
+.profile-Image {
+  float: right;
+  width: 50%;
+  height: 270px;
+  
+}
+.title {
+  background-color: #a4b5e9;
+  color: white;
+}
+.topmain {
+  margin-top: 0.5%;
+}
+
+.shortParagraph {
+  margin-top: 2%;
+}
+
