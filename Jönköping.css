@@ -7,7 +7,6 @@
   float: right;
   width: 50%;
   height: 270px;
-  
 }
 .title {
   background-color: #a4b5e9;
@@ -20,4 +19,10 @@
 .shortParagraph {
   margin-top: 2%;
 }
-
+.path3 {
+  margin-top: 5%;
+  margin-left: 0px !important;
+}
+.path4 {
+  margin-top: 20%;
+}
