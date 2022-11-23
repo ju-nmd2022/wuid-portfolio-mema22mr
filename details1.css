@@ -1,0 +1,30 @@
+img{
+    width:100%;
+    }
+    body{
+      margin:0px;
+      font-family:arial;
+    }
+    .details{
+      height:400px;
+      overflow:hidden
+    }
+    header{
+      display:flex;
+      flex-direction:column;
+      align-items:flex-start;
+      margin-bottom:1%;
+    }
+    header>small{
+      color:#808080;
+      font-family:arial;
+    }
+    main{
+      padding:10px;
+      text-align:justify
+    }
+    
+    footer{
+    background:gray
+    ;
+    height:200px}
