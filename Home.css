@@ -1,0 +1,81 @@
+.bootstrap-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #ed3c57;
+}
+
+.bootstrap-btn:hover {
+    background-color: #ed3c57;
+}
+
+body{
+    background-color: #eee;
+    margin:0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    height:250px;
+    background-color: white;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.button>button{
+    margin-left: 1%;
+}
+button:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+   body{
+    display: flex;
+    flex-direction: column;
+   } 
+   .button{
+   margin-top:50%;
+   width: 50%;
+    flex-direction: column;
+  
+   }
+   .button>button{
+    margin-top:1%
+   }
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }

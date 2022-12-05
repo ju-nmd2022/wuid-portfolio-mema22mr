@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="Jonkoping.css" />
+  </head>
+  <body>
+    <div style="height: 60px">
+      <nav class="navbar">
+        <a href="#" class="logo">Martina Meri</a>
+        <div class="nav-links">
+          <ul class="nav-menu">
+            <li class="active"><a href="">Jönköping</a></li>
+            <li><a href="./Projects.html">My Portofolio</a></li>
+            <li><a href="./AboutMe.html">Who am I?</a></li>
+          </ul>
+        </div>
+        <i class="bx bx-grid-alt menu-hamburger"></i>
+      </nav>
+      <header
+        class="header"
+        style="display: flex; align-items: center; justify-content: flex-start"
+      >
+        <div class="Title">
+          <h1>Jönköping</h1>
+          <h4>This is my city</h4>
+        </div>
+      </header>
+      <div class="Main">
+        <h1 class="titles">About Jönköping</h1>
+      </div>
+      <div class="TalkingAboutJonkoping">
+        <a href="#theCity">
+          <div>
+            <h2>The City</h2>
+          </div>
+        </a>
+        <a href="#theNature">
+          <div>
+            <h2>Good places to eat</h2>
+          </div>
+        </a>
+        <a href="#thePeople">
+          <div>
+            <h2>Fun activities</h2>
+          </div>
+        </a>
+      </div>
+      <div class="theCity" id="theCity">
+        <div>
+          <p>
+            Jönköping is a beautiful city with bunch of activities that you can
+            do. Not only that the city has some very beautiful views from above
+            the city. The city has many good resturants that gets filled up with
+            people. Jönköping is a city on the shores of Lake Vättern, in
+            southern Sweden. It's known for its long lakeside beach,
+            Vätterstranden. In the center is the 19th-century Sofia Church, with
+            its neo-Gothic design and towering spire. Nearby, the Jönköping
+            County Museum is home to artworks by local fairy-tale illustrator
+            John Bauer. On the lake island of Visingsö is the Erstad marsh, home
+            to waterbird colonies.
+          </p>
+        </div>
+        <div>
+          <img
+            class="img"
+            src="munksjon_vy-webb-4e75ce1c88ca363ffd1e17fccf66e5b4-1199x800.png"
+          />
+        </div>
+      </div>
+      <div class="theCity" id="theNature">
+        <div>
+          <img src="restaurangen.png" class="img" alt="" />
+        </div>
+        <div>
+          <blockquote>
+            <ul>
+              <h3 class="path3">What are the good places to eat?</h3>
+              <li>Dal baffo</li>
+              <li>Aqua dinner & drinks</li>
+              <li>Ombrelli</li>
+              <li>NEO</li>
+              <li>La Locandiera Ristorante & WineBar</li>
+              <li>Icha Mochi</li>
+              <li>Ciro</li>
+            </ul>
+            <div class="blockquote-author-image"></div>
+          </blockquote>
+        </div>
+      </div>
+      <div class="theCity" id="thePeople">
+        <div>
+          <h3 class="shortParagraph">What can you do?</h3>
+          <ul class="shortParagraph">
+            <li>Bowling at Elmia</li>
+            <li>Yoump</li>
+            <li>Rosenlundsbadet</li>
+            <li>John Bauers museum</li>
+            <li>Match museum</li>
+            <li>Play tennis, badminton, squash, curling.</li>
+            <li>Visit Gränna</li>
+          </ul>
+        </div>
+        <div>
+          <img src="Discobowling5.png" class="img" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  const UserName = localStorage.getItem("UserName");
+  console.log(UserName);
+</script>
